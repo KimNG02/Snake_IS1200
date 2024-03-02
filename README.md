@@ -27,40 +27,28 @@ The goal was to create a functional Snake game on the PIC32 platform that includ
 
 ## Installation
 
- Clone this repository to your local machine.
-   ```sh
-   git clone https://github.com/yourgithubusername/snake-game-pic32.git
-   
-Open the project in MPLAB X IDE.
-Configure your project to use the XC32 Compiler.
-Connect your Uno32 board to your computer.
-Build the project and upload it to the Uno32 board.
+Clone this repository to your local machine using:
 
-## Usage
+```sh
+git clone https://github.com/yourgithubusername/snake-game-pic32.git
 
-- After uploading the game to the Uno32 board, use the buttons on the Basic I/O shield to control the snake's movement.
-- The goal is to eat as many apples as possible without colliding with the walls or the snake's tail.
+Then:
+1. Open the project in MPLAB X IDE.
+2. Configure your project to use the XC32 Compiler.
+3. Connect your Uno32 board to your computer.
+4. Build the project and upload it to the Uno32 board.
 
-## Project Structure
+Usage
+After uploading the game to the Uno32 board, use the buttons on the Basic I/O shield to control the snake's movement. The goal is to eat as many apples as possible without colliding with the walls or the snake's tail.
 
-- `src/`: Contains the source code files for game logic, display rendering, and input handling.
-- `include/`: Contains the header files for the project, defining functions and variables.
-- `docs/`: Documentation related to the project, including design documents and schematics.
+Project Structure
+. src/: Contains the source code files for game logic, display rendering, and input handling.
+. include/: Contains the header files for the project, defining functions and variables.
+. docs/: Documentation related to the project, including design documents and schematics.
 
-## Contributions
-
+Contributions
 This project is a collaborative effort:
-
-- **Kim Nguyen**
-- **Natali Alhallak**
+Kim Nguyen
+Natali Alhallak
 
 We welcome contributions from the community. Please feel free to fork the repository, make improvements, and submit a pull request.
-
-## License
-
-- This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
-## Acknowledgments
-
-- Thanks to Microchip Technology for providing the PIC32 microcontroller and development tools.
-- Appreciation to our project advisors and classmates for their valuable feedback.
