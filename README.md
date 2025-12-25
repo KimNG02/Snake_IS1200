@@ -1,10 +1,10 @@
-# 🐍 Snake Game on PIC32
+# Snake Game on PIC32
 
 This repository contains the source code for a classic Snake game implemented on the PIC32 microcontroller using the **Uno32 development board**. The project leverages the board's **OLED graphical display** for the game's visual output and utilizes the **Basic I/O shield** for user input.
 
 ---
 
-## 🎯 Project Objective
+## Project Objective
 
 The goal of this project is to create a functional Snake game on the PIC32 platform that includes:
 
@@ -16,28 +16,28 @@ The goal of this project is to create a functional Snake game on the PIC32 platf
 
 ---
 
-## 🛠️ Setup and Requirements
+## Setup and Requirements
 
-### 🔌 Hardware Requirements
+### Hardware Requirements
 
 - Microchip **PIC32** microcontroller
 - **Uno32** development board
 - **Basic I/O shield** (for user input handling)
 
-### 💻 Software Requirements
+### Software Requirements
 
 - **MPLAB X IDE**
 - **XC32 Compiler**
 
 ---
 
-## 🚀 Installation
+## Installation
 
 Clone this repository to your local machine:
 
 git clone https://github.com/yourgithubusername/snake-game-pic32.git
 
-### 🔧 Setup Instructions
+### Setup Instructions
 
 1. **Open the project** in **MPLAB X IDE**.
 2. **Configure** the project to use the **XC32 Compiler**.
@@ -46,7 +46,7 @@ git clone https://github.com/yourgithubusername/snake-game-pic32.git
 
 ---
 
-### 🎮 Usage
+### Usage
 
 After uploading the game to the Uno32 board:
 
@@ -55,5 +55,4 @@ After uploading the game to the Uno32 board:
 
 ---
 
-### 📂 Project Structure
 
